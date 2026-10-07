@@ -1,5 +1,7 @@
 # Aura disposable live proof
 
+Safe-block commissioning: no merge authorized.
+
 Synthetic greeting example used only to exercise Aura's live build, tests,
 independent validation, pull request, merge, and authoritative confirmation.
 
