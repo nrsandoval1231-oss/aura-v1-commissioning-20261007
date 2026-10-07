@@ -3,4 +3,13 @@
 Synthetic greeting example used only to exercise Aura's live build, tests,
 independent validation, pull request, merge, and authoritative confirmation.
 
-Run `python -m unittest -v`.
+`greeting.py` provides `greet(name)`, which returns a greeting such as
+`"Hi, Ada."`, and `multiply(a, b)`, which returns the product of its arguments.
+For example, `multiply(3, 4)` returns `12`, `multiply(-3, 4)` returns `-12`,
+`multiply(-3, -4)` returns `12`, and `multiply(0, 9)` returns `0`.
+
+Run the unittest suite in PowerShell with the configured Python executable:
+
+```powershell
+& 'C:/Users/nrsan/.codex/worktrees/aura-adaptive-v1/Aura/.venv/Scripts/python.exe' -B -m unittest -v
+```
